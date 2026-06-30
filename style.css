@@ -1,0 +1,104 @@
+/* GLOBAL BACKGROUND */
+body {
+    background: linear-gradient(180deg, #fff0f6, #ffe4ec);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* MAIN TITLE */
+.main-title {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    background: linear-gradient(90deg, #ff69b4, #ff85c1, #ffb6c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+/* SUBTITLE */
+.subtitle {
+    text-align: center;
+    color: #d63384;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* INPUT */
+input {
+    border-radius: 12px !important;
+    border: 1px solid #ffc0cb !important;
+    padding: 8px !important;
+}
+
+/* TEXTAREA */
+textarea {
+    border-radius: 15px !important;
+    border: 1px solid #ffb6c1 !important;
+    padding: 10px !important;
+    background-color: #fffafa !important;
+}
+
+/* BUTTON */
+button {
+    background: linear-gradient(135deg, #ff69b4, #ff85c1) !important;
+    color: white !important;
+    border-radius: 12px !important;
+    border: none !important;
+    padding: 8px 15px !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease-in-out;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+}
+
+/* VIDEO CARD */
+.video-card {
+    background-color: #fff0f6;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.15);
+    margin: 20px 0 30px 0;
+}
+
+/* HIDE EMPTY CARD */
+.video-card:empty {
+    display: none;
+}
+
+/* COMMENT BOX */
+.comment-box {
+    background-color: #ffe4ec;
+    padding: 12px 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* ALERT */
+.stAlert {
+    border-radius: 12px;
+}
+
+/* TEXT */
+p {
+    color: #444;
+    font-size: 14px;
+}
+
+/* SPACING */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* SEPARATOR */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ffb6c1, transparent);
+    margin: 20px 0;
+}
